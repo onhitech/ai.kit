@@ -1,0 +1,30 @@
+<h1>CGI Test, by POST method</h1>
+<hr><p>
+
+<FORM method=POST action="./cgi-bin/testPost.cgi">
+
+<label>text</label>
+<input type=text name=name maxlength=10> 
+<p>
+
+<label>number</label>
+<input type=number name=num maxlength=2> 
+<p>
+
+<label>radio</label>
+<input type=radio name=led value=1 checked> ON
+<input type=radio name=led value=0> OFF
+<p>
+
+<label>checkbox</label>
+<input type=checkbox name=ledArray value=8 checked> LED3
+<input type=checkbox name=ledArray value=4> LED2
+<input type=checkbox name=ledArray value=2> LED1
+<input type=checkbox name=ledArray value=0 checked> LED0
+<p>
+
+<input type=submit name=transmit value=transmit>
+<p>
+
+</FORM>
+

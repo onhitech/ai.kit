@@ -1,0 +1,54 @@
+<FORM method=GET action="./cgi-bin/formtag.cgi">
+
+<label>text</label>
+<input type=text name=name maxlength=10> 
+<p>
+
+<label>password</label>
+<input type=password name=pw maxlength=10> 
+<p>
+
+<label>number</label>
+<input type=number name=num maxlength=2> 
+<p>
+
+<label>radio</label>
+<input type=radio name=led value=1 checked> ON
+<input type=radio name=led value=0> OFF
+<p>
+
+<label>checkbox</label>
+<input type=checkbox name=ledArray value=8 checked> LED3
+<input type=checkbox name=ledArray value=4> LED2
+<input type=checkbox name=ledArray value=2> LED1
+<input type=checkbox name=ledArray value=0 checked> LED0
+<p>
+
+<label>list</label>
+<select name=year>
+	<option value=1> 2011 </option>
+	<option value=2> 2012 </option>
+	<option value=3 selected> 2013 </option>
+	<option value=4> 2014 </option>
+	<option value=5> 2015 </option>
+</select>
+<p>
+
+<label>textarea</label>
+<textarea name=memo rows=10 cols=40> memo... </textarea>
+<p>
+
+<label>button</label>
+<input type=button name=ok value=ok> 
+<p>
+
+<label>submit</label>
+<input type=submit name=transmit value=transmit>
+<p>
+
+<label>reset</label>
+<input type=reset name=cancel value=cancel>
+<p>
+
+</FORM>
+
